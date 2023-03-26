@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Fabric/Forge Buttons + Infinite Scroll
 // @namespace    http://tampermonkey.net/
-// @version      0.3
+// @version      0.5
 // @description  try to take over the world!
 // @author       You
 // @match        https://www.curseforge.com/minecraft/mc-mods*
@@ -23,6 +23,10 @@
     if (history.scrollRestoration) {
         history.scrollRestoration = 'manual';
     }
+
+    console.log("FUCK YOU")
+
+    return
 
     var shtuff = []
 
