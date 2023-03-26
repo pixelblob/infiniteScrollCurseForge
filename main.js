@@ -196,7 +196,7 @@
                 if (latestFabric) {
                     var modId = latestFabric.split("/").at(-1)
                     //console.log(latestName)
-                    createDLButton("Fabric", `https://mediafilez.forgecdn.net/files/${modId.slice(0, 4)}/${modId.slice(4)}/${latestNameFabric}`, "#14BEBD", latestNameFabric, latestFabric)
+                    createDLButton("Fabric", `https://mediafilez.forgecdn.net/files/${modId.slice(0, 4)}/${modId.slice(4)}/${latestNameFabric}`, "#14BEBD", null, latestFabric)
                 }
                 if (latestForge) {
                     var modId = latestForge.split("/").at(-1)
@@ -207,7 +207,7 @@
 
                     //console.log(modId)
 
-                    createDLButton("Forge", `https://mediafilez.forgecdn.net/files/${modId.slice(0, 4)}/${modId.slice(4)}/${latestNameForge}`, "#be14a2", latestNameForge, latestForge)
+                    createDLButton("Forge", `https://mediafilez.forgecdn.net/files/${modId.slice(0, 4)}/${modId.slice(4)}/${latestNameForge}`, "#be14a2",null, latestForge)
                     //console.log(buttonContainer.firstChild)
                 }
                 if (!md5 && !modInstalled) {
