@@ -1,13 +1,16 @@
 // ==UserScript==
 // @name         Fabric/Forge Buttons + Infinite Scroll
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.3
 // @description  try to take over the world!
 // @author       You
 // @match        https://www.curseforge.com/minecraft/mc-mods*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=curseforge.com
+// @require      https://raw.githubusercontent.com/pixelblob/infiniteScrollCurseForge/master/main.js
 // @grant        none
-// ==/UserScript==
+// @downloadURL  https://raw.githubusercontent.com/pixelblob/infiniteScrollCurseForge/master/main.js
+// @updateURL    https://raw.githubusercontent.com/pixelblob/infiniteScrollCurseForge/master/main.js
+// ==/UserScript== 
 
 (function () {
     'use strict';
